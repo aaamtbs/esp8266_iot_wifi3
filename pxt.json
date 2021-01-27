@@ -1,0 +1,23 @@
+{
+    "name": "ESP8266_iot_wifi3",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v4.2.1",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.12",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
