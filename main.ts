@@ -28,12 +28,12 @@ basic.showLeds(`
     . . . . .
     `)
 basic.showIcon(IconNames.No)
-let WIFI_MODE = 2
+let WIFI_MODE = 1
 const Tx_pin: SerialPin = SerialPin.P8
 const Rx_pin: SerialPin = SerialPin.P12
 const LED_pin: DigitalPin = DigitalPin.P6
-let SSID_1 = "your_wifi_ssid"
-let PASSWORD_1 = "your_wifi_password"
+let SSID_1 = "your_SSID"
+let PASSWORD_1 = "password"
 let SSID_2 = "ESP8266"
 let PASSWORD_2 = "microbit"
 pins.digitalWritePin(LED_pin, 0)
